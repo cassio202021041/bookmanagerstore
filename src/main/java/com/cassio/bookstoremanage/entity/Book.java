@@ -27,7 +27,7 @@ public class Book {
     private Integer pages;
 
     @Column(nullable = false)
-    private String chapters;
+    private Integer chapters;
 
     @Column(nullable = false)
     private  String isbn;
